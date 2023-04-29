@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+/* Reset */
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.App{
+  margin: auto 140px;
+  text-align: center;
+  /* border: 1px solid red; */
+}
+
+p, h1, h2{
+  color: #555;
+}
+
+button{
+  background: #66CDAA	;
+  color: #fff;
+  font-size: 14px;
+  padding: 10px;
+  border: 0;
+  border-radius: 4px;
+  margin: 10px auto;
+  cursor: pointer;
+}
+
+
+/* Nav */
+
+.title{
+  display: inline-block;
+  padding: 20px 40px;
+  margin-bottom: 60px;
+  font-weight: normal;
+}
+
+/* Buttons */
+
+.button-container{
+  display: flex;
+  justify-content: center;
+}
+
+.button-container button{
+  margin-left: 6px;
+}
+
+/* Modal */
+
+.modal-background{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.5);
+}
+
+.modal{
+  padding: 30px;
+  max-width: 480px;
+  margin: 14px auto;
+  background: #fff;
+  border-radius: 10px;
+}
+
+/* EventList */
+
+.card{
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  padding: 10px;
+  max-width: 400px;
+  margin: 20px auto;
+  border-radius: 4px;
+}
+
+/* AddEvent Form */
+
+.add-event-form label,
+.add-event-form input{
+display: block;
+text-align: left;
+width: 100%;
+margin: 10px auto;
+padding: 8px;
+box-sizing: border-box;
+font-size: .9em;
+}
+
+
